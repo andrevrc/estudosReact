@@ -1,6 +1,6 @@
 // Importando o framework 'express' para dentro de uma variável "express". 
 const express = require('express');
-const cors = require(cors);
+const cors = require('cors');
 const routes = require('./routes'); //"./" porque é um arquivo e não um pacote. Assim, indicamos o caminho relativo.
 // Instânciando a variável express. A variável app será a nossa aplicação propriamente dita.
 const app = express();
